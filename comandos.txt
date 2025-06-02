@@ -1,0 +1,12 @@
+baixar os binários dotnet e node, e coloca-los nas pastas 'dotnet' e 'node', respectivamente, dentro da pasta
+
+FRONTEND:
+npm install -g @angular/cli
+npm install
+
+
+BACKEND:
+dotnet restore
+dotnet new tool-manifest
+dotnet tool install dotnet-ef
+dotnet tool run dotnet-ef database update
